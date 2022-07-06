@@ -103,7 +103,7 @@
     
   #part1 h1{color:rgb(190, 102, 29);
     padding-top: 50px;
-      }
+  }
   #part2 {
     background-color: rgba(178, 190, 144, 0.308);
     padding: 1%;
@@ -135,50 +135,85 @@
     padding-top: 50px;
   }
   
-  .coming-events{
-    padding-top: 100px;
-  }
       
   #up-events {
     text-align: center;
     font-size: 30px;
+    margin-top: 100px;
   }
       
-  .events {
+  .events2 {
     display: flex;
     font-size: 20px;
     margin-top: 100px;
     margin-left: 5%;
     margin-right: 5%;
   }
+  
+  #events1 {
+    display: flex;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #events2 {
+    display: flex;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+     
+  }
       
   #part-events1 {
+    text-align: justify;
     margin: 0px 10px;
     margin-left: 10px;
-    padding: 0%;
+    padding-bottom: 5%;
+    padding-left: 1.5%;
+    padding-right: 2%;
+    
   }
       
   #part-events2 {
+    text-align: justify;
     margin: 0px 10px;
-    padding: 0%;
+    padding-left: 5px;
+    padding-right: 2%;
+    
       
   }
       
+  
   #part-events3 {
-      
+    text-align: justify;
     margin: 0px 10px;
-    padding: 0%;
+    margin-left: 10px;
+    padding-bottom: 5%;
+    padding-left: 1.5%;
+    padding-right: 2%;
+    
+      
       
   }
-  .faruk{width:50%;
-    margin: 0 auto;
+  #part-events4 {
+
+    text-align: justify;
+    margin: 0px 10px;
+    padding-left: 5px;
+    padding-right: 2%;
   }
   .learn {
     background-image: linear-gradient(rgb(158, 157, 74), rgb(54, 92, 150));
     text-decoration: none;
     padding: 10px 25px;
     color: white;
-    border-radius: 7px; }
+    border-radius: 7px;
+    text-align: end; 
+     
+  }
+  
   .subscribe{
     text-align: center;
     font-size: 30px;
@@ -207,7 +242,7 @@
   .subs-back{
     background-color: rgba(253, 252, 172, 0.541);
     margin:50px 25%;
-    padding: 70px 100px;
+    padding: 70px 8%;
     display: flex;
   }
   
