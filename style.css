@@ -1,89 +1,95 @@
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
- 
-.introduction{
-    text-align: center;
-  background-image:
-      linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgb(0, 0, 0)),
-      url('images/donation11.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  body,
+  html {
     height: 100%;
-    padding-top: 80px;
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: 50px;
-    color:white;
-    font-family: 'Archivo Narrow', sans-serif;
+    margin: 0;
+  }
+  
+  .introduction{
+      text-align: center;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgb(0, 0, 0)),
+        url('images/donation11.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      padding-top: 80px;
+      padding-left: 20%;
+      padding-right: 20%;
+      font-size: 50px;
+      color:white;
+      font-family: 'Archivo Narrow', sans-serif;
+      
+    }
+  .introduction p {
+    font-size: 30px; 
+    }
+  .donate{
+    font-size: 20px;
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(126, 116, 31), orange);
+    padding: 15px 30px;
+    border-radius: 3PX;
+    font-weight: 600;
     
   }
-.introduction p {
-  font-size: 30px; 
+  .method{
+    text-align: center;
+    padding-top: 100px;
   }
-.donate{
-  font-size: 20px;
-  background-color: aqua;
-  color: white;
-  text-decoration: none;
-  background-image: linear-gradient(rgb(126, 116, 31), orange);
-  padding: 15px 30px;
-  border-radius: 3PX;
-  font-weight: 600;
-}
-.method{
-  text-align: center;
-  padding-top: 100px;
-}
-#first-div{
-  font-size: 35px;
-}
-#first-div p{
-  font-size: 30px;
-  padding-left: 420px;
-  padding-right: 420px;
-  padding-bottom: 30px;
+  #first-div{
+    font-size: 35px;
+  }
+  #first-div p{
+    font-size: 30px;
+    padding-left: 420px;
+    padding-right: 420px;
+    padding-bottom: 30px;
+    
+  }
+  #row {
+    display: flex;
+    padding-left:  300px;
+    padding-bottom: 60px;
+  }
+  .second-div{
+    font-size: 30px;
+    
   
-}
-#row {
-  display: flex;
-  padding-left:  300px;
-  padding-bottom: 60px;
-}
-.second-div{
-  font-size: 30px;
-   
- 
-  padding-bottom: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
   
- 
-}
-#action{
-  margin-bottom: 50px;
-}
-span{color:rgb(199, 50, 50);
-  background-color: rgba(255, 178, 178, 0.658);
-  border: 3px solid rgb(199, 50, 50);
-  border-radius: 10px;
-  padding: 40px 20px;
-  
+  }
+  #action{padding: 20px;
+    margin-bottom: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 20px;
+  }
+  span{color:rgb(199, 50, 50);
+    background-color: rgba(255, 178, 178, 0.658);
+    border: 3px solid rgb(199, 50, 50);
+    border-radius: 10px;
+    padding: 40px 20px;
+    
 
   }
   .part-plan{text-align: center;
     font-size: 30px;padding-top:90px;
-    
+      
   }
   .full-part{
     display: flex;
     font-size: 25px;
     margin-left: 80px;
     margin-right: 80px;
-   
-     
+    
+      
   }
   #part1{
     background-color: rgb(165, 214, 198);
@@ -94,49 +100,122 @@ span{color:rgb(199, 50, 50);
     background-repeat: no-repeat;
     background-origin: content-box;
     padding-top: 40px;
-   
-    }
-   
-    #part1 h1{color:blue;
-      padding-top: 50px;
-    }
-    #part2 {
-      background-color: rgba(178, 190, 144, 0.308);
-      padding: 1%;
-      margin: 1%;
-      border-radius: 10px;
-      background-image: url(icons/shelter.png);
-      background-repeat: no-repeat;
-      background-origin: content-box;
-      padding-top: 40px;
-   
+    
   }
-    #part2 h1 {color: blue;
-      padding-top: 50px;
-    }
-     #part3 {
-       background-color: rgb(144, 172, 190);
-       padding: 1%;
-       margin: 1%;
-       border-radius: 10px;
-       background-image: url(icons/Frame-1.png);
-       background-repeat: no-repeat;
-       background-origin: content-box;
-       padding-top: 40px;
-        
+    
+  #part1 h1{color:blue;
+    padding-top: 50px;
+      }
+  #part2 {
+    background-color: rgba(178, 190, 144, 0.308);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-top: 40px;
+    
+  }
+  #part2 h1 {color: blue;
+    padding-top: 50px;
+  }
       
+  #part3 {
+    background-color: rgb(144, 172, 190);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-top: 40px;
+          
+        
+  }
+  #part3 h1 {color: blue;
+    padding-top: 50px;
+  }
+      
+      
+  #up-events {
+    text-align: center;
+    font-size: 30px;
+  }
+      
+  .events {
+    display: flex;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 15px;
+  }
+      
+  #part-events1 {
+    margin: 0px 10px;
+    margin-left: 10px;
+    padding: 1px;
+  }
+      
+  #part-events2 {
+    margin: 0px 10px;
+    padding: 1px;
+      
+  }
+      
+    #part-events3 {
+      
+    margin: 0px 10px;
+    padding: 1px;
+      
+  }
+  .subscribe{
+    text-align: center;
+      font-size: 30px;
+      padding-top: 90px;
+      padding-bottom: 80px;
     }
-        #part3 h1 {color: blue;
-          padding-top: 50px;
-        }
-    footer{color:antiquewhite;
-      background-color: black;
-      text-align: center;
-      padding: 40px;
-      margin-top: 80px;
-      font-style:oblique;
+    .subscribe p{
+      font-size: 30px;
+      padding: 10px 400px;
     }
-    footer h1{
-      color:rgb(252, 111, 111)
+    #subs-button{
+      padding:20px;
+      margin:0%;
+      border:0;
+      border-radius: 2px;
+      background-color: rgb(180, 199, 199);
     }
+    #subs-button2{background-color: brown;
+      padding: 20px 50px;
+      border: 0;
+      border-radius: 2px;
+      color: aliceblue;
+      font-size: 18px;
+
+    }
+  .subs-back{
+    background-color: rgba(253, 252, 172, 0.541);
+    margin:50px 400px;
+    padding: 70px 100px;
+    display: flex;
+  }
   
+  .learn{
+    background-color: rgb(255, 246, 127);
+    text-decoration: none;
+    padding: 15px 50px;
+    color: blue;
+    border-radius: 7px;
+  }footer {
+    color: antiquewhite;
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    margin-top: 80px;
+    font-style: oblique;
+  }
+  
+  footer h1 {
+    color: rgb(252, 111, 111);
+    font-family: 'Yellowtail', cursive;
+  }
