@@ -5,19 +5,19 @@
   }
   
   .introduction{
-      text-align: center;
+    text-align: center;
     background-image:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgb(0, 0, 0)),
-        url('images/donation11.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100%;
-      padding-top: 80px;
-      padding-left: 20%;
-      padding-right: 20%;
-      font-size: 50px;
-      color:white;
-      font-family: 'Archivo Narrow', sans-serif;
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgb(0, 0, 0)),
+    url('images/donation11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 50px;
+    color:white;
+    font-family: 'Archivo Narrow', sans-serif;
       
     }
   .introduction p {
@@ -50,18 +50,16 @@
   }
   #row {
     display: flex;
-    padding-left:  300px;
-    padding-bottom: 60px;
+    padding-left:20%;
+    padding-bottom: 20px;
   }
   .second-div{
-    font-size: 30px;
-    
-  
+    font-size: 25px;
     padding-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
     
-  
+     
   }
   #action{padding: 20px;
     margin-bottom: 50px;
@@ -150,7 +148,8 @@
     display: flex;
     font-size: 20px;
     margin-top: 100px;
-    margin-left: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
   }
       
   #part-events1 {
@@ -173,32 +172,32 @@
   }
   .subscribe{
     text-align: center;
-      font-size: 30px;
-      padding-top: 90px;
-      padding-bottom: 80px;
-    }
-    .subscribe p{
-      font-size: 30px;
-      padding: 10px 400px;
-    }
-    #subs-button{
-      padding:20px;
-      margin:0%;
-      border:0;
-      border-radius: 2px;
-      background-color: rgb(180, 199, 199);
-    }
-    #subs-button2{background-color: brown;
-      padding: 20px 50px;
-      border: 0;
-      border-radius: 2px;
-      color: aliceblue;
-      font-size: 18px;
+    font-size: 30px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+  }
+  .subscribe p{
+    font-size: 25px;
+    padding: 10px 400px;
+  }
+  #subs-button{
+    padding:20px;
+    margin:0%;
+    border:0;
+    border-radius: 2px;
+    background-color: rgb(180, 199, 199);
+  }
+  #subs-button2{background-color: brown;
+    padding: 20px 50px;
+    border: 0;
+    border-radius: 2px;
+    color: aliceblue;
+    font-size: 18px;
 
     }
   .subs-back{
     background-color: rgba(253, 252, 172, 0.541);
-    margin:50px 400px;
+    margin:50px 25%;
     padding: 70px 100px;
     display: flex;
   }
@@ -206,7 +205,7 @@
   .learn{
     background-image:linear-gradient(rgb(158, 157, 74) ,rgb(54, 92, 150));
     text-decoration: none;
-    padding: 15px 50px;
+    padding: 15px 40px;
     color: white;
     border-radius: 7px;
   }footer {
