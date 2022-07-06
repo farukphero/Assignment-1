@@ -6,7 +6,9 @@ html {
  
 .introduction{
     text-align: center;
-    background-image: url(images/i10.jpg);
+  background-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgb(0, 0, 0)),
+      url('images/donation11.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -14,8 +16,9 @@ html {
     padding-left: 20%;
     padding-right: 20%;
     font-size: 50px;
-    color:rgb(255, 0, 43);
+    color:white;
     font-family: 'Archivo Narrow', sans-serif;
+    
   }
 .introduction p {
   font-size: 30px; 
@@ -23,7 +26,7 @@ html {
 .donate{
   font-size: 20px;
   background-color: aqua;
-  color: rgb(207, 3, 3);
+  color: white;
   text-decoration: none;
   background-image: linear-gradient(rgb(126, 116, 31), orange);
   padding: 15px 30px;
@@ -35,16 +38,19 @@ html {
   padding-top: 100px;
 }
 #first-div{
-  font-size: 50px;
+  font-size: 35px;
 }
 #first-div p{
   font-size: 30px;
+  padding-left: 420px;
+  padding-right: 420px;
+  padding-bottom: 30px;
   
 }
 #row {
   display: flex;
   padding-left:  300px;
-  font-style:inherit;
+  padding-bottom: 60px;
 }
 .second-div{
   font-size: 30px;
@@ -67,4 +73,70 @@ span{color:rgb(199, 50, 50);
   
 
   }
+  .part-plan{text-align: center;
+    font-size: 30px;padding-top:90px;
+    
+  }
+  .full-part{
+    display: flex;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+   
+     
+  }
+  #part1{
+    background-color: rgb(165, 214, 198);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-top: 40px;
+   
+    }
+   
+    #part1 h1{color:blue;
+      padding-top: 50px;
+    }
+    #part2 {
+      background-color: rgba(178, 190, 144, 0.308);
+      padding: 1%;
+      margin: 1%;
+      border-radius: 10px;
+      background-image: url(icons/shelter.png);
+      background-repeat: no-repeat;
+      background-origin: content-box;
+      padding-top: 40px;
+   
+  }
+    #part2 h1 {color: blue;
+      padding-top: 50px;
+    }
+     #part3 {
+       background-color: rgb(144, 172, 190);
+       padding: 1%;
+       margin: 1%;
+       border-radius: 10px;
+       background-image: url(icons/Frame-1.png);
+       background-repeat: no-repeat;
+       background-origin: content-box;
+       padding-top: 40px;
+        
+      
+    }
+        #part3 h1 {color: blue;
+          padding-top: 50px;
+        }
+    footer{color:antiquewhite;
+      background-color: black;
+      text-align: center;
+      padding: 40px;
+      margin-top: 80px;
+      font-style:oblique;
+    }
+    footer h1{
+      color:rgb(252, 111, 111)
+    }
   
