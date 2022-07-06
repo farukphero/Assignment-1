@@ -20,7 +20,7 @@ html {
 .introduction p {
   font-size: 30px; 
   }
-#donate{
+.donate{
   font-size: 20px;
   background-color: aqua;
   color: rgb(207, 3, 3);
@@ -30,4 +30,41 @@ html {
   border-radius: 3PX;
   font-weight: 600;
 }
+.method{
+  text-align: center;
+  padding-top: 100px;
+}
+#first-div{
+  font-size: 50px;
+}
+#first-div p{
+  font-size: 30px;
+  
+}
+#row {
+  display: flex;
+  padding-left:  300px;
+  font-style:inherit;
+}
+.second-div{
+  font-size: 30px;
+   
+ 
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+ 
+}
+#action{
+  margin-bottom: 50px;
+}
+span{color:rgb(199, 50, 50);
+  background-color: rgba(255, 178, 178, 0.658);
+  border: 3px solid rgb(199, 50, 50);
+  border-radius: 10px;
+  padding: 40px 20px;
+  
+
+  }
   
