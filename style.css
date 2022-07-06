@@ -1,0 +1,33 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+ 
+.introduction{
+    text-align: center;
+    background-image: url(images/i10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 50px;
+    color:rgb(255, 0, 43);
+    font-family: 'Archivo Narrow', sans-serif;
+  }
+.introduction p {
+  font-size: 30px; 
+  }
+#donate{
+  font-size: 20px;
+  background-color: aqua;
+  color: rgb(207, 3, 3);
+  text-decoration: none;
+  background-image: linear-gradient(rgb(126, 116, 31), orange);
+  padding: 15px 30px;
+  border-radius: 3PX;
+  font-weight: 600;
+}
+  
