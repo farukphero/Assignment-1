@@ -21,7 +21,7 @@
       
     }
   .introduction p {
-    font-size: 30px; 
+    font-size: 25px; 
     }
   .donate{
     font-size: 20px;
@@ -42,7 +42,7 @@
     font-size: 35px;
   }
   #first-div p{
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 420px;
     padding-right: 420px;
     padding-bottom: 30px;
@@ -138,8 +138,11 @@
       
   #up-events {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 100px;
+  }
+  #up-events h1{
+    font-size: 50px;
   }
       
   .events2 {
@@ -152,14 +155,14 @@
   
   #events1 {
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
   }
   #events2 {
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
@@ -225,7 +228,7 @@
     padding: 10px 30%;
   }
   #subs-button{
-    padding:4% 8%;
+    padding:3% 7%;
     margin:0%;
     border:0;
     border-radius: 2px;
