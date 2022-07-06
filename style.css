@@ -155,14 +155,14 @@
   
   #events1 {
     display: flex;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
   }
   #events2 {
     display: flex;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
@@ -174,7 +174,7 @@
     margin: 0px 10px;
     margin-left: 10px;
     padding-bottom: 5%;
-    padding-left: 1.5%;
+    padding-left: 2%;
     padding-right: 2%;
     
   }
@@ -182,7 +182,7 @@
   #part-events2 {
     text-align: justify;
     margin: 0px 10px;
-    padding-left: 5px;
+    padding-left:2% ;
     padding-right: 2%;
     
       
@@ -194,17 +194,15 @@
     margin: 0px 10px;
     margin-left: 10px;
     padding-bottom: 5%;
-    padding-left: 1.5%;
+    padding-left: 2%;
     padding-right: 2%;
     
-      
-      
   }
   #part-events4 {
 
     text-align: justify;
     margin: 0px 10px;
-    padding-left: 5px;
+    padding-left: 2%;
     padding-right: 2%;
   }
   .learn {
