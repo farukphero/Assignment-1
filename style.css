@@ -225,14 +225,14 @@
     padding: 10px 30%;
   }
   #subs-button{
-    padding:20px;
+    padding:4% 8%;
     margin:0%;
     border:0;
     border-radius: 2px;
     background-color: rgb(180, 199, 199);
   }
   #subs-button2{background-color: brown;
-    padding: 20px 50px;
+    padding: 0% 8%;
     border: 0;
     border-radius: 2px;
     color: aliceblue;
@@ -241,8 +241,8 @@
     }
   .subs-back{
     background-color: rgba(253, 252, 172, 0.541);
-    margin:50px 25%;
-    padding: 70px 8%;
+    margin:2% 20%;
+    padding:5% 10%;
     display: flex;
   }
   
